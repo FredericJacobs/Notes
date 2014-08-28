@@ -1,0 +1,3 @@
+## Notes on RSA security
+
+August 2014 - The common belief is that RSA1024 is “safe” because the longest key size known to be broken is 700 bits long and therefore, 1024-bits can still be used safely for the next 10 years. This reasoning is wrong. Here are a few notes on asymptotic cost. When you start breaking many keys, cost of breaking them becomes cheaper with scale. Bernstein presents **Batch NFS** to optimize the Area Time and make factorization more effective at scale. 
